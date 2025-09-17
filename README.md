@@ -11,3 +11,10 @@ Throughout the development process, I acquired practical knowledge in scripting 
 - Structuring a Blender addon with proper registration methods and metadata using bl_info
 - Creating custom UI panels and operators to enhance user interaction within Blender’s interface
 - Utilizing Blender’s Python API to manipulate 3D objects and properties programmatically
+
+## Installation
+
+- Download ZIP
+- Open Blender
+- Go to Edit > Preferences > Add-ons > Install from Disk...
+- Select ZIP
