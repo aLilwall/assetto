@@ -5,7 +5,7 @@ import requests
 import bpy
 from . os_handler import file_path
 
-url = "http://127.0.0.1:5000/item"
+url = "http://68.211.62.23:5000/item"
 
 
 def data_extractor():
