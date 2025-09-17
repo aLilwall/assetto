@@ -2,13 +2,13 @@ import bpy
 import requests
 from . os_handler import file_path
 
-url = "http://68.211.58.117:5000/item/"
+url = "http://68.211.63.1:5000/item/"
 
 
 def get_items():
     """Get method to retrieve a list of all items saved in the API.
     """
-    url = "http://68.211.58.117:5000/items"
+    url = "http://68.211.63.1:5000/items"
     response = requests.get(url)
     item_data = response.json()
     return item_data
